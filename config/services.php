@@ -36,15 +36,15 @@ return [
     ],
 
     'facebook' => [
-        'client_id'     => '461656770702888',
-        'client_secret' => '762642f898568264ab91dc02be28c50c',
-        'redirect'      => 'http://recall.dev/auth/facebook/callback',
+        'client_id'     => env('FACEBOOK_CLIENT_ID'),
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        'redirect'      => env('FACEBOOK_REDIRECT'),
     ],
 
     'twitter' => [
-        'client_id'     => 'x1cPahHxZzIS8ajAOqBfVClQy',
-        'client_secret' => 'I2WH8Xqj5Eb9VrD9ipvo3EccxcAWntPozZ5BMjKzVObl8Tuy3V',
-        'redirect'      => 'http://recall.dev/auth/twitter/callback',
+        'client_id'     => env('TWITTER_CLIENT_ID'),
+        'client_secret' => env('TWITTER_CLIENT_SECRET'),
+        'redirect'      => env('TWITTER_REDIRECT'),
     ],
 
     'bibles' => [
